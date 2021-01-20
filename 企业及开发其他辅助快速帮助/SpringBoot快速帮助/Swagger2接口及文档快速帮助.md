@@ -60,12 +60,15 @@ public class SwaggerConfig {
     @Bean
     public Docket getClientDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
+            	//调用apiInfo方法,创建一个ApiInfo实例,里面是展示在文档页面信息内容
                 .apiInfo(apiInfo())
                 //分组名称
                 .groupName("ClientApi")
+            	//创建ApiSelectorBuilder对象
                 .select()
                 //扫描的包名称
                 .apis(RequestHandlerSelectors.basePackage("com.flower.controller.client"))
+            	//匹配任何路径
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -116,6 +119,7 @@ public class SwaggerConfig {
                 .groupName("webApi")
                 .apiInfo(webApiInfo())
                 .select()
+            	//过滤调xx路径
                 .paths(Predicates.not(PathSelectors.regex("/admin/.*")))
                 .paths(Predicates.not(PathSelectors.regex("/error.*")))
                 .build();
@@ -357,6 +361,27 @@ properties文件里面也可以设置全局返回规则
 #为null不返回
 spring.jackson.default-property-inclusion=non_null
 ```
+
+# 八、Swagger2遇上Security如何处理
+
+我们在Security的配置类中加入如下方法即可
+
+```java
+    /**
+     * 配置Swagger-ui，避免无法使用文档
+     * @param web
+     * @throws Exception
+     */
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web.ignoring(). antMatchers("/swagger-ui.html","/oauth/check_token")
+                .antMatchers("/webjars/**")
+                .antMatchers("/v2/**")
+                .antMatchers("/swagger-resources/**");
+    }
+```
+
+
 
 
 
