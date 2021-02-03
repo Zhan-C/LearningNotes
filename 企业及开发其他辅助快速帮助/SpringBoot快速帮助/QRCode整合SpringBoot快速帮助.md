@@ -103,8 +103,9 @@ public class QRCodeUtil {
      * 根据url生成二维码并且返回字节数组
      *
      * @param url
-     * @param width
-     * @param height
+     * @param width  宽度
+     * @param height 高度
+     * @param margin 边距
      * @return
      */
     public static byte[] generateCode(String url, Integer width, Integer height, Integer margin) {
