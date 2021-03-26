@@ -4,7 +4,7 @@
 
 # 二、主流MQ对比
 
-![image-20210321123446948](F:\StudyNotes\LearningNotes\5_RocketMQ\images\image-20210321123446948.png)
+![image-20210321123446948](\images\image-20210321123446948.png)
 
 ![image-20210321123500886](F:\StudyNotes\LearningNotes\5_RocketMQ\images\image-20210321123500886.png)
 
