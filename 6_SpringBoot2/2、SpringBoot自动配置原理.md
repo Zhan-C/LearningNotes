@@ -243,7 +243,7 @@ public class MainApplication {
 
   条件装配：满足Conditional指定的条件，则进行组件注入
 
-  ![xxxxxxxxx.png](\images\xxxxxxxxx.png)
+  ![xxxxxxxxx.png](images\xxxxxxxxx.png)
 
   ```java
   =====================测试条件装配==========================
@@ -438,7 +438,7 @@ public @interface AutoConfigurationPackage {}
    
 ```
 
-![image.png](\images\1602845382065-5c41abf5-ee10-4c93-89e4-2a9b831c3ceb.png)
+![image.png](images\1602845382065-5c41abf5-ee10-4c93-89e4-2a9b831c3ceb.png)
 
 ```xml
 文件里面写死了spring-boot一启动就要给容器中加载的所有配置类
