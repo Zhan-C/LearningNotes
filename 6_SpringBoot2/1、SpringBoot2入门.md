@@ -20,13 +20,13 @@ web开发
 
 ...
 
-![image-20210324073805252](images\image-20210324073805252.png)
+![image-20210324073805252](images/image-20210324073805252.png)
 
 # 二、Spring5重大升级
 
 （左边新版/右边旧版）
 
-![image-20210324073857613](images\image-20210324073857613.png)
+![image-20210324073857613](images/image-20210324073857613.png)
 
 # 三、SpringBoot的优缺点
 
@@ -74,11 +74,11 @@ Spring Boot makes it easy to create stand-alone, production-grade Spring based A
 
 ### 官方文档架构
 
-![image-20210324075752848](images\image-20210324075752848.png)
+![image-20210324075752848](images/image-20210324075752848.png)
 
-![image-20210324075900136](\images\image-20210324075900136.png)
+![image-20210324075900136](\images/image-20210324075900136.png)
 
 ### 查看版本新特性（https://github.com/spring-projects/spring-boot/wiki#release-notes）
 
-![image-20210324075949540](images\image-20210324075949540.png)
+![image-20210324075949540](images/image-20210324075949540.png)
 

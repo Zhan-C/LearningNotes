@@ -1,6 +1,6 @@
 # WEB开发
 
-![image-20210330081313785](images\image-20210330081313785.png)
+![image-20210330081313785](images/image-20210330081313785.png)
 
 # 1、SpringMVC自动配置概览
 
