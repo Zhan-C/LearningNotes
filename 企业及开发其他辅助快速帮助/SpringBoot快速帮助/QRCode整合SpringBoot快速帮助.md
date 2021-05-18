@@ -2,7 +2,7 @@
 
 QR码属于矩阵式二维码中的一个种类，由DENSO(日本电装)公司开发，由JIS和ISO将其标准化。QR码的样子其实在很多场合已经能够被看到了
 
-![img](https://img-blog.csdn.net/20141223101235304?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl1bGluYTYwMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+![img](..\images\Center)
 
 1. 位置探测图形、位置探测图形分隔符：用于对二维码的定位，对每个QR码来说，位置都是固定存在的，只是大小规格会有所差异；这些黑白间隔的矩形块很容易进行图像处理的检测。 
 
@@ -275,14 +275,3 @@ public class CreatQRCodeController {
 
 # 三、测试
 
-### 测试一：
-
-![image-20210120140731576](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210120140731576.png)
-
-![image-20210120140808651](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210120140808651.png)
-
-### 测试二：
-
-![image-20210120140922648](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210120140922648.png)
-
-![image-20210120140937251](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210120140937251.png)
